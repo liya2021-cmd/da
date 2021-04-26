@@ -70,7 +70,7 @@ function validate()
 							<legend class="screen_out">아이디,비밀번호 로그인 정보 입력 폼</legend>
 							<div class="box_inp"> <!-- input 포커스시 input_on클래스 추가 / 입력시, 입력내용삭제버튼 노출시 del_on클래스 추가 -->
 								
-								<input type="email" id="id" placeholder="아이디 또는 이메일 주소 입력"  name="lug" value="" class="tf_g" style="ime-mode:disabled;">
+								<input type="email" id="id" placeholder="아이디 또는 이메일 주소 입력"  name="lug" value="" autocomplete="on" class="tf_g" style="ime-mode:disabled;">
 								
 							</div>
 							<p id="id_msg" class="txt_message" style=" display:none "> <!-- 오류메세지 노출시 display:block, 비노출시 display:none -->
@@ -79,7 +79,7 @@ function validate()
 
 							<div class="box_inp"> <!-- input 포커스시 input_on클래스 추가 / 입력시, 입력내용삭제버튼 노출시 del_on클래스 추가 -->
 								
-								<input type="password" id="inputPwd" name="key" class="tf_g" placeholder="비밀번호 입력" value="" maxlength="32"  style="ime-mode:disabled;">
+								<input type="password" id="inputPwd" name="key" class="tf_g" placeholder="비밀번호 입력" autocomplete="on" value="" maxlength="32"  style="ime-mode:disabled;">
 							
 							</div>
 							<p id="pw_msg" class="txt_message" > <!-- 오류메세지 노출시 display:block, 비노출시 display:none -->
